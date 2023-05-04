@@ -1,0 +1,18 @@
+/* use two varible instead of array: Time: O(n), Space: O(1) */
+function sumFibs(num) {
+  let sum = 0;
+  let a = 1, b = 0, temp;
+
+  while (a <= num) {
+    if (a % 2 !== 0) {
+      sum += a;
+    }
+    temp = a;
+    a = a + b;
+    b = temp;
+  }
+
+  return sum;
+}
+
+module.exports = sumFibs;
