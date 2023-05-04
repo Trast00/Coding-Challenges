@@ -75,7 +75,7 @@ class LinkedList {
     //else
     var current = this.head
     for(let i=0; i<index-1; i++){
-      current.next_node
+      current = current.next_node
     }
     current.next_node = current.next_node.next_node
   }
