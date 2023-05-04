@@ -1,0 +1,27 @@
+/* Use switch: Time: O(n), Space: O(n) */
+
+for (let i = 0; i < string.length; i++) {
+  const element = string.charAt(i);
+  switch (element) {
+    case '{':
+    case '(':
+    case '[':
+      stack.add(element);
+      break;
+    case '}':
+      if (stack.pop() !== '{') {
+        return false;
+      }
+      break;
+    case ')':
+      if (stack.pop() !== '(') {
+        return false;
+      }
+      break;
+    case ']':
+      if (stack.pop() !== '[') {
+        return false;
+      }
+      break;
+  }
+}
