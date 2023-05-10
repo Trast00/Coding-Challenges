@@ -1,3 +1,4 @@
+/* Time: O(n) Space: O(h)  */
 class Node {
   constructor(data) {
     this.data = data
