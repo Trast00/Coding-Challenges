@@ -1,3 +1,4 @@
+/* Time: O(V+E) Space: O(V) where V is vertex and E eages*/
 def depth_first_search(graph)
   # write your code here
   @result = [0]
