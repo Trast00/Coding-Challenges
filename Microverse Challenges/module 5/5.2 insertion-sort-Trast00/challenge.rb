@@ -1,3 +1,4 @@
+# Time : O(n^2) Space: O(1)
 def sort_itself(array)
   # write your code here
 
