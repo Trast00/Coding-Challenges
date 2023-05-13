@@ -1,4 +1,5 @@
 module.exports = function (str1, str2) {
+  // Time-Space: O(n)-O(n)
 
   // lowercase and remove non-alphanumrical
   str1 = str1.toLowerCase().replace(/[^a-z0-9]/gi, '')
@@ -41,6 +42,7 @@ module.exports = function (str1, str2) {
 }
 
 /* First solution
+  // Time-Space: O(nlog(n))-O(n)
   // split str in str1 & str2
   // Lower Case str
   // Remove all non-alphanumerical value to str
