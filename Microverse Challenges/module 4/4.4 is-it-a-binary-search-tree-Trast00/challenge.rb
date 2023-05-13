@@ -1,3 +1,4 @@
+/* Time: O(n) Space: O(h) */
 class Node
 	attr_reader :data
 	attr_accessor :left, :right

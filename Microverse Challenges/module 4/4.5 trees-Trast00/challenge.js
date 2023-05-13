@@ -1,3 +1,4 @@
+/* Time: O(log n) Space: O(1)*/
 function leftmostNodesSum(array) {
   // your code here
   if (array.length <= 0){
