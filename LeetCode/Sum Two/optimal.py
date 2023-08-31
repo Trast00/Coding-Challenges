@@ -20,4 +20,4 @@ class Solution(object):
             nums_index[num] = index
         # return Null
 
-        return Null
+        return
